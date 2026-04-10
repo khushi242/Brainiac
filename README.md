@@ -171,31 +171,6 @@ If you have not yet created a `requirements.txt`, you can generate one later aft
 
 ---
 
-## How to Run
-
-### Option 1: Jupyter Notebook
-Open the notebooks:
-
-```bash
-jupyter notebook
-```
-
-Then open the notebooks inside `code/` and run them in sequence.
-
-### Option 2: VS Code
-- open the `Brainiac` folder in VS Code
-- open the notebook inside `code/`
-- select the correct Python kernel
-- run cells step by step
-
-### Option 3: Google Colab
-If your workflow is in Colab:
-- upload the notebook
-- mount Google Drive if needed
-- update dataset paths accordingly
-
----
-
 ## Outputs
 
 The project can produce outputs such as:
@@ -207,31 +182,21 @@ The project can produce outputs such as:
 - explainability visualizations
 - counterfactual results
 - derived risk features / tables
+- risk stratification
 
 ---
 
 ## Current Status
 
-This project is an active research-style pipeline and may still be evolving.  
+This project is an active research pipeline and may still be evolving.  
 Some notebooks may represent:
 - intermediate experiments
 - renamed cleaned versions
 - explainability-focused prototypes
 - model comparison work
 
-That is normal for a research workflow.
-
 ---
 
-## Notes for GitHub
-
-Large files should usually be excluded from the repo, including:
-
-- raw datasets
-- trained model weights
-- generated caches
-- temporary notebook checkpoints
-- zipped archives
 
 Recommended `.gitignore` entries include:
 
@@ -250,28 +215,4 @@ results/
 
 ---
 
-## Future Improvements
 
-Possible next steps for Brainiac:
-
-- add a clean `requirements.txt`
-- add sample output images
-- add an architecture diagram
-- add evaluation metrics table
-- add a proper inference script
-- package notebooks into reusable modules
-- add a small demo for prediction / visualization
-
----
-
-## Author
-
-**Khushi**  
-B.Tech AI & ML Student  
-Project: **Brainiac**
-
----
-
-## License
-
-Add a license here if you plan to make the repository public for reuse.
