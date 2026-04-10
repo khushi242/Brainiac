@@ -1,6 +1,6 @@
 # Brainiac
 
-Brainiac is an AI-powered brain tumor analysis project built around a **3D medical imaging pipeline** for MRI volumes.  
+Brainiac is an AI and DL-powered brain tumor analysis project built around a **3D medical imaging pipeline** for MRI volumes.  
 It combines **preprocessing, Swin UNETR-based tumor segmentation, explainability, counterfactual analysis, and downstream risk modeling** into one structured workflow.
 
 ## Project Overview
